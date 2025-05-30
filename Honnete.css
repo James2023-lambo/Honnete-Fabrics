@@ -1,0 +1,350 @@
+ 
+:root {
+    --menu-count: 6;
+}
+
+body {
+    background-color: #111;
+}
+ 
+/* Header styling start */
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav {
+    padding: 1rem 2rem;
+    background-color:  red;
+    height: 100px;
+    width: 100%;
+    margin: auto;
+}
+
+nav.logo {
+    color: white;
+    font-size: 35px;
+    padding: 0 10px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    padding-top: 10px;
+}
+
+nav ul li a{
+     
+
+    display: block;
+    padding: 0 10px;
+    height: 100%;
+    line-height: 60px;
+    font-size: 1rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #000000;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all ease-in-out 100ms;
+}
+
+ul li a:hover {
+    background-color: #2a2a2a;
+}
+
+ 
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+/* Header styling stop */
+
+/* Hero Section */
+.hero-section {
+    text-align: center;
+    padding: 60px 20px 30px;
+    background: linear-gradient(to bottom, #ffe1f0, #fff0f5);
+}
+
+.Welcome-text {
+    font-size: 2rem;
+    color: #c71585;
+    font-weight: bold;
+    margin-bottom: 2px;
+    animation: fadein 1s ease-in-out;
+}
+
+.hero-image {
+    width: 80%;
+    max-width: 50%;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(199, 21, 133, 0.3);
+    animation: fadeinup 1.5s ease-out;
+}
+
+.btn-scroll {
+    display: inline-block;
+    margin-top: 30px;
+    background-color: #d12a7a;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.btn-scroll:hover {
+    background-color: #a2185f;
+    transform: scale(1.05);
+}
+
+/* Hero section stop */
+
+/* More Section */
+.more-section {
+    background-color: #fff5fa;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.more-section h2 {
+    font-size: 2rem;
+    color: #d12a7a;
+    margin-bottom: 20px;
+}
+
+.more-section p {
+    font-size: 1.1rem;
+    color: #444;
+    max-width: 600px; 
+    margin: 0 auto;
+}
+
+/* More section stop */
+
+/* About Us section */
+ 
+.index-about-us {
+    background-color:  #1A253A;
+}
+
+.index-about-img img {
+    width: 300px;
+    border-radius: 300px;
+}
+
+.index-about-flex {
+    justify-content: center;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.index-about-text {
+    flex-basis: 455px;
+    color: white;
+}
+
+.index-about-text p {
+    padding: 20px 0;
+}
+
+.index-about-text a {
+    font-size: 1.8rem;
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    background-color: #d12a7a;
+    padding: 0 20px;
+    width: fit-content;
+}
+
+.index-about-text a:hover {
+    background-color: #d12a7a;
+}
+
+/* About us section stop */
+ 
+ 
+/* Honnete category box start */
+
+
+.index-category {
+    width: 100%;
+    padding: 60px 0;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px; flex-wrap: wrap;
+
+}
+
+.index-category .category {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.index-category .category a {
+    display: block;
+    width: 100%;
+}
+
+.index-category p {
+     color: #111;
+     text-align: center;
+     padding-bottom: 40px;
+     flex-basis: 100%;
+     text-transform: uppercase;
+     font-size: 2.2rem;
+}
+
+.index-category-box{
+    width: 300px;
+    height: 400px;
+    background-color: #111;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+ 
+.index-category-box:nth-child(1) {
+    background-image: url(../responsive-website/img/Ankara\ 1.jpg);
+}
+
+.index-category-box:nth-child(2) {
+     background-image: url(../responsive-website/img/Ankara60.jpg);
+}
+
+.index-category-box:nth-child(3) {
+     background-image: url(../responsive-website/img/Ankara61.jpg);
+}
+
+.index-category-box:nth-child(4) {
+     background-image: url(../responsive-website/img/ANKARA\ 72.jpg);
+}
+
+.dark-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #1A253A;
+    opacity: 0.5;
+    transition: all ease-in-out 200ms;
+}
+
+.index-category-box:hover .dark-overlay {
+    opacity: 0;
+}
+
+
+.index-category-box h3{
+    font-size: 2.2rem;
+    line-height: 1.5;
+    text-align: center;
+    text-shadow: -2px 2px 4px #000;
+    z-index: 100;
+}
+
+/* Honnete category box stop */
+
+/* Testimonials section start */
+
+.testimonials {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fceae8;
+}
+
+.testimonials h2 {
+    color: #c0392b;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.testimonials-box {
+    max-width: 600px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-left: 5px solid #c0392b;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Testimonials section stop */
+
+
+/* Mobile-menu-btn start */
+
+.mobile-menu-btn {
+    display: none;
+}
+
+/* Mobile-menu-btn stop */
+
+/* DROPDOWN STYLING START */    
+ 
+nav ul li ul {
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+    position: absolute;
+    left: -40px;
+    transition: all ease-in-out 100ms;
+}
+
+nav ul li ul li a {
+    white-space: nowrap;
+}
+
+ul li:hover>ul {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+/* DROPDOWN STYLING STOP */
+ 
+ /* Footer section */
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 15px;
+}
+
+/* Footer section stop */

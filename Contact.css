@@ -1,0 +1,100 @@
+#contact {
+    background: linear-gradient(to right, #e0ffff, #ffe0f7);
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contact-container {
+    background-color: white;
+    max-width: 700px;
+    margin: auto;
+    padding: 40px 30px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+#contact h2 {
+    font-size: 2.5rem;
+    color: #d12a7a;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contact-intro {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+form input,
+form textarea {
+    padding: 14px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    transition: border-color 0.3s;
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #d12a7a;
+    outline: none;
+}
+
+button[type="submit"] {
+    background-color: orange;
+    color: white;
+    padding: 14px;
+    font-size: 1em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+button[type="submit"]:hover {
+    background-color: #a91F60;
+    transform: scale(1.03);
+}
+
+.contact-info p {
+    font-size: 1.1em;
+    color: #444;
+    margin: 5px 0;
+}
+
+.email-button {
+    display: inline-block;
+    background-color: #c71585;
+    color: white;
+    padding: 12px 30px;
+     font-size: 16px;
+     border-radius: 25px;
+     text-decoration: none;
+     font-weight: bold;
+     box-shadow: 0 4px 15px rgba(199, 21, 133, 0.3);
+     transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.email-button:hover {
+    background-color: #a2185f;
+    transform: translateY(-2px);
+}
+
+.extra-massage {
+    margin-top: 30px;
+    background-color:   #fff6f9;
+    padding: 15px 20px;
+    border-left: 5px solid  #d12a7a;
+    border-radius: 8px;
+    font-style: italic ;
+    color: #444;
+}
